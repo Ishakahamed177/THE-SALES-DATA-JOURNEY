@@ -110,7 +110,7 @@ Calculates the average `total_price` across order item records. This is an avera
 ### Dashboard Previews
 
 ### 1. Sales Analysis — Overview and Seasonal Trends
-![Sales Analysis Overview](images/sales-analysis.png)
+![Sales Analysis Overview]<img width="1324" height="740" alt="Screenshot 2025-12-18 113150" src="C:\Users\makbu\Desktop\Vinsup Project\Dashboard screenshots" />
 
 ### 2. Location Analysis — State and City Performance
 ![Location Analysis](images/location-analysis.png)
