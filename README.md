@@ -109,16 +109,16 @@ Calculates the average `total_price` across order item records. This is an avera
 ## 📊 Dashboard Screenshots
 
 ### 1. Sales Analysis — Overview
-<img width="1324" alt="Sales Analysis Overview" src="image_a2ee3e.png" />
+<img width="1324" alt="Sales Analysis Overview" src="Dashboard screenshots/Sakes Analysis.png" />
 
 ### 2. Location Analysis — State and City Performance
-<img width="1324" alt="Location Analysis" src="image_a2ee76.png" />
+<img width="1324" alt="Location Analysis" src="Dashboard screenshots/Location Analysis.png" />
 
 ### 3. Customer Insights — Categories, Brands and Top Spenders
-<img width="1324" alt="Customer Insights" src="image_a2ede1.png" />
+<img width="1324" alt="Customer Insights" src="Dashboard screenshots/Customer Insights.png" />
 
 ### 4. Executive Summary
-<img width="1324" alt="Executive Summary" src="image_a2ee18.jpg" />
+<img width="1324" alt="Executive Summary" src="Dashboard screenshots/Overview.png" />
 
 ---
 
