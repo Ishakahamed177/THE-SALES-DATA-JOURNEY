@@ -69,8 +69,25 @@
 
 ---
 ## 🧩 System Architecture
-<img width="1324" alt="System Architecture" src="C:\Users\makbu\Desktop\Vinsup Project\System architecture.png" />
----
+The system architecture consists of four phases that transform raw retail data into meaningful business insights.
+
+**Phase 1: Data Ingestion and Preprocessing**
+
+Raw CSV files are imported into Microsoft Excel for data cleaning and preprocessing. Data formats are standardized, missing values and duplicate records are handled, and the `total_price` feature is calculated for sales analysis.
+
+**Phase 2: Relational Database Warehouse (MySQL)**
+
+The cleaned data is organized into nine related tables: Customers, Staffs, Stores, Orders, Order_Items, Stocks, Products, Brands, and Categories. Primary keys and foreign keys maintain data integrity and establish relationships between the tables.
+
+**Phase 3: Machine Learning and Exploratory Data Analysis**
+
+Python, Pandas, SQLAlchemy, Matplotlib, and Scikit-Learn are used to analyze retail data. Exploratory Data Analysis identifies sales patterns, while RFM analysis evaluates customer purchasing behavior. StandardScaler prepares features for K-Means clustering, which supports customer segmentation into Loyal, New, and At-Risk groups.
+
+**Phase 4: Business Intelligence (Power BI)**
+
+Power BI is used to develop interactive dashboards with DAX measures, KPI cards, and dynamic slicers. The dashboards present sales performance, seasonal trends, geographical comparisons, product performance, and customer insights to support data-driven business decisions.
+
+**Overall Workflow:** Microsoft Excel → MySQL → Python and Machine Learning → Power BI → Business Insights.---
 
 ## 📈 Business Intelligence Dashboard — Power BI
 
@@ -108,16 +125,16 @@ Calculates the average `total_price` across order item records. This is an avera
 
 ## 📊 Dashboard Screenshots
 
-### 4. Executive Summary
-<img width="1324" alt="Executive Summary" src="Dashboard screenshots/Overview.png" />
+### 1.Overview
+<img width="1324" alt="Overview" src="Dashboard screenshots/Overview.png" />
 
-### 1. Sales Analysis — Overview
-<img width="1324" alt="Sales Analysis Overview" src="Dashboard screenshots/Sales Analysis.png" />
+### 2. Sales Analysis
+<img width="1324" alt="Sales Analysis Overview" src="Dashboard screenshots/Sales Anaysis.png" />
 
-### 2. Location Analysis — State and City Performance
+### 3. Location Analysis — State and City Performance
 <img width="1324" alt="Location Analysis" src="Dashboard screenshots/Location Analysis.png" />
 
-### 3. Customer Insights — Categories, Brands and Top Spenders
+### 4. Customer Insights — Categories, Brands and Top Spenders
 <img width="1324" alt="Customer Insights" src="Dashboard screenshots/Customer Insights.png" />
 
 ---
