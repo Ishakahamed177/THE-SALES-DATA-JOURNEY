@@ -70,50 +70,7 @@
 ---
 
 ## 🧩 System Architecture
-
-```text
-         PHASE 1: DATA PREPROCESSING
-         ┌──────────────────────────┐
-         │       Raw CSV Files      │
-         └────────────┬─────────────┘
-                      ▼
-         ┌──────────────────────────┐
-         │     Microsoft Excel      │
-         │ Cleaning and Feature     │
-         │ Engineering               │
-         └────────────┬─────────────┘
-                      ▼
-         PHASE 2: DATABASE MANAGEMENT
-         ┌──────────────────────────┐
-         │          MySQL           │
-         │   Nine Relational Tables │
-         │   Primary and Foreign    │
-         │   Key Constraints        │
-         └────────────┬─────────────┘
-                      ▼
-         PHASE 3: DATA ANALYSIS & ML
-         ┌──────────────────────────┐
-         │ Python, Pandas,           │
-         │ SQLAlchemy, Matplotlib    │
-         └────────────┬─────────────┘
-                      ▼
-         ┌──────────────────────────┐
-         │ RFM Analysis and          │
-         │ K-Means Clustering        │
-         └────────────┬─────────────┘
-                      ▼
-         PHASE 4: BUSINESS INTELLIGENCE
-         ┌──────────────────────────┐
-         │        Power BI          │
-         │ DAX Measures and Slicers │
-         └────────────┬─────────────┘
-                      ▼
-         ┌──────────────────────────┐
-         │ Interactive Dashboards   │
-         │ Business Insights        │
-         └──────────────────────────┘
-```
-
+![System Architecture](system-architecture.png)
 ---
 
 ## 📈 Business Intelligence Dashboard — Power BI
@@ -152,29 +109,17 @@ Calculates the average `total_price` across order item records. This is an avera
 
 ### Dashboard Previews
 
-#### 1. Sales Analysis — Overview and Seasonal Trends
+### 1. Sales Analysis — Overview and Seasonal Trends
+![Sales Analysis Overview](images/sales-analysis.png)
 
-![Sales Analysis Overview](image_a2ee3e.png)
+### 2. Location Analysis — State and City Performance
+![Location Analysis](images/location-analysis.png)
 
-Analyzes sales performance over time and highlights seasonal trends and periods of stronger sales.
+### 3. Customer Insights — Categories, Brands and Top Spenders
+![Customer Insights](images/customer-insights.png)
 
-#### 2. Location Analysis — State and City Performance
-
-![Location Analysis](image_a2ee76.png)
-
-Compares geographical sales performance to identify stronger-performing locations.
-
-#### 3. Customer Insights — Categories, Brands and Top Spenders
-
-![Customer Insights](image_a2ede1.png)
-
-Highlights product category and brand performance, along with high-spending customers.
-
-#### 4. Executive Summary
-
-![Executive Summary](image_a2ee18.jpg)
-
-Provides a consolidated overview of key sales KPIs and business performance indicators.
+### 4. Executive Summary
+![Executive Summary](images/executive-summary.jpg)
 
 ---
 
