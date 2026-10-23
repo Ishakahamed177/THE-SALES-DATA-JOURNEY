@@ -68,9 +68,8 @@
 - Presented executive-level insights to support business decisions.
 
 ---
-
 ## 🧩 System Architecture
-![System Architecture](system-architecture.png)
+<img width="1324" alt="System Architecture" src="C:\Users\makbu\Desktop\Vinsup Project\System architecture.png" />
 ---
 
 ## 📈 Business Intelligence Dashboard — Power BI
@@ -107,19 +106,19 @@ Average Sales = AVERAGE(order_items[total_price])
 
 Calculates the average `total_price` across order item records. This is an average order-item value, not the average value of an entire customer order.
 
-### Dashboard Previews
+## 📊 Dashboard Screenshots
 
-### 1. Sales Analysis — Overview and Seasonal Trends
-![Sales Analysis Overview]<img width="1324" height="740" alt="Screenshot 2025-12-18 113150" src="C:\Users\makbu\Desktop\Vinsup Project\Dashboard screenshots" />
+### 1. Sales Analysis — Overview
+<img width="1324" alt="Sales Analysis Overview" src="image_a2ee3e.png" />
 
 ### 2. Location Analysis — State and City Performance
-![Location Analysis](images/location-analysis.png)
+<img width="1324" alt="Location Analysis" src="image_a2ee76.png" />
 
 ### 3. Customer Insights — Categories, Brands and Top Spenders
-![Customer Insights](images/customer-insights.png)
+<img width="1324" alt="Customer Insights" src="image_a2ede1.png" />
 
 ### 4. Executive Summary
-![Executive Summary](images/executive-summary.jpg)
+<img width="1324" alt="Executive Summary" src="image_a2ee18.jpg" />
 
 ---
 
